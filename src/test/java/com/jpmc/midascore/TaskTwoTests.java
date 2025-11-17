@@ -33,8 +33,8 @@ class TaskTwoTests {
         logger.info("use your debugger to watch for incoming transactions");
         logger.info("kill this test once you find the answer");
         while (true) {
-            Thread.sleep(20000);
-            logger.info("...");
+            Thread.sleep(5000);
+            logger.info(" ending test");
         }
     }
 
